@@ -1,0 +1,153 @@
+﻿---
+alwaysApply: true
+---
+??? PATH ??
+????? 00000072 64C1:D356
+C:\USERS\D\DOCUMENTS\GITHUB\XIANGYUPAI-RNAPP\SRC
++---globalComponents
++---navigation
++---pages
+|   +---Discover
+|   |   +---DetailPage
+|   |   |   +---CommentInputArea
+|   |   |   +---CommentListArea
+|   |   |   +---DetailHeaderArea
+|   |   |   +---hooks
+|   |   |   +---ImageViewerArea
+|   |   |   +---services
+|   |   |   \---UserInfoCardArea
+|   |   +---MainPage
+|   |   |   +---backend
+|   |   |   +---ContentCardArea
+|   |   |   +---HeaderArea
+|   |   |   +---MasonryContentArea
+|   |   |   \---TabNavigationArea
+|   |   +---PublishPage
+|   |   |   +---backend
+|   |   |   +---ContentEditorArea
+|   |   |   +---FunctionTagsArea
+|   |   |   +---hooks
+|   |   |   +---LocationSelectorDrawer
+|   |   |   +---MediaManagerArea
+|   |   |   +---PublishControlArea
+|   |   |   +---services
+|   |   |   +---TopicSelectorPage
+|   |   |   \---utils
+|   |   +---ReportPage
+|   |   |   +---backend
+|   |   |   +---DescriptionInputArea
+|   |   |   +---ImageUploadArea
+|   |   |   +---ReportTypeSelectionArea
+|   |   |   +---SubmitConfirmModal
+|   |   |   \---SuccessModal
+|   |   \---TopicDetailPage
+|   |       +---backend
+|   |       +---hooks
+|   |       +---services
+|   |       +---TopicHeaderArea
+|   |       +---TopicLoadingArea
+|   |       \---TopicPostCardArea
+|   |           \---assets
+|   +---GroupCenter
+|   |   +---MainPage
+|   |   |   +---ContentArea
+|   |   |   +---FilterArea
+|   |   |   \---HeaderArea
+|   |   |       +---NavigationBar
+|   |   |       \---PublishButton
+|   |   \---PublishPage
+|   |       +---HeaderArea
+|   |       |   +---NavigationBar
+|   |       |   \---SaveButton
+|   |       \---TypeSelectionArea
+|   |           +---TypeGrid
+|   |           \---TypeValidation
+|   +---Home
+|   |   +---LocationPage
+|   |   |   +---HeaderArea
+|   |   |   +---HotCitiesArea
+|   |   |   +---LocationRecommendArea
+|   |   |   \---RegionListArea
+|   |   |       +---AlphabetIndex
+|   |   |       \---RegionListItem
+|   |   +---MainPage
+|   |   |   +---FilterTabsArea
+|   |   |   +---FunctionGridArea
+|   |   |   +---GameBannerArea
+|   |   |   +---HeaderArea
+|   |   |   +---LimitedOffersArea
+|   |   |   +---TeamPartyArea
+|   |   |   \---UserListArea
+|   |   |       \---UserCardComponent
+|   |   \---SearchPage
+|   |       +---SearchHeaderArea
+|   |       +---SearchHistoryArea
+|   |       +---SearchInputArea
+|   |       +---SearchResultsArea
+|   |       |   +---AllResultsView
+|   |       |   |   \---ContentCard
+|   |       |   +---ServiceResultsView
+|   |       |   +---TopicResultsView
+|   |       |   \---UserResultsView
+|   |       +---SearchSuggestionsArea
+|   |       \---SearchTabsArea
+|   +---Main
+|   +---Message
+|   |   +---LikeCollectPage
+|   |   |   \---LikeCollectItemArea
+|   |   +---MainPage
+|   |   |   +---components
+|   |   |   +---MessageCategoryArea
+|   |   |   +---MessageHeaderArea
+|   |   |   \---RecentChatListArea
+|   |   \---PrivateChatPage
+|   |       +---ChatHeaderArea
+|   |       +---components
+|   |       +---InputArea
+|   |       +---MessageBubbleArea
+|   |       +---MessageListArea
+|   |       \---pchat
+|   \---Profile
+|       +---MainPage
+|       |   +---SharedComponents
+|       |   |   \---SkeletonLoader
+|       |   +---ToolsArea
+|       |   +---TransactionArea
+|       |   |   +---FunctionButton
+|       |   |   |   +---function
+|       |   |   |   \---transaction
+|       |   |   \---LayoutCard
+|       |   \---UserInfoArea
+|       |       \---userhead
+|       \---ReportPage
+|           +---DescriptionInputArea
+|           |   \---CharacterCounter
+|           +---events
+|           +---hooks
+|           +---ImageUploadArea
+|           |   +---AddImageButton
+|           |   +---ImageItem
+|           |   |   \---DeleteButton
+|           |   \---ImageSourcePicker
+|           +---services
+|           +---SharedComponents
+|           |   \---SubmitConfirmModal
+|           |       +---ModalButton
+|           |       \---ModalOverlay
+|           \---TypeSelectionArea
+|               \---TypeCard
+\---types
+??? PATH ??
+????? 0000001D 64C1:D356
+C:\USERS\D\DOCUMENTS\GITHUB\XIANGYUPAI-RNAPP\ASSETS
++---action-icons
++---icons
+\---images
+    +---backgrounds
+    +---common
+    \---home
+        +---banner
+        +---bottom-navigation
+        +---header
+        +---limited-offers
+        \---team-party
