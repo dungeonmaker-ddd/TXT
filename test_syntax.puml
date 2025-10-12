@@ -1,0 +1,50 @@
+﻿@startuml
+
+' ==========================================
+' 馃彈锔?鎺㈠簵APP瀹屾暣绯荤粺 - 缁煎悎绫诲浘璁捐 v3.0
+' 18寮犺〃瀹炵幇瀹屾暣鍔熻兘锛氱敤鎴?鍐呭+浜ゆ槗+鑱婂ぉ+璇濋+濯掍綋+閫氱煡
+' 璁捐鐞嗗康锛氳绠椾紭浜庡瓨鍌紝JSON鐏垫椿鎵╁睍锛屾ā鍧楀寲鏋舵瀯
+' 涓氬姟妯″潡锛氱櫥褰?棣栭〉+鍙戠幇+娑堟伅+涓汉涓績+缁勫眬+鏈嶅姟璁㈠崟
+' ==========================================
+
+' ===== 鏍稿績鐢ㄦ埛妯″潡 (4琛? =====
+
+class User {
+    + id : Long
+    + username : String  
+    + mobile : String
+    + password : String
+    + status : Integer
+    + last_login_time : DateTime
+    + created_at : DateTime
+    --
+    ' 鐢ㄦ埛鍩虹淇℃伅琛?    ' id: 鐢ㄦ埛鍞竴鏍囪瘑(闆姳ID)
+    ' username: 鐧诲綍鐢ㄦ埛鍚?鍞竴,鍙慨鏀?
+    ' mobile: 鎵嬫満鍙?鍞竴,鐧诲綍鍑瘉,鏀寔+86鍦板尯鐮?
+    ' password: 瀵嗙爜鍝堝笇鍊?BCrypt鍔犲瘑)
+    ' status: 鐢ㄦ埛鐘舵€?0=绂佺敤,1=姝ｅ父,2=鍐荤粨,3=宸叉敞閿€)
+    ' last_login_time: 鏈€鍚庣櫥褰曟椂闂?鐢ㄤ簬鍦ㄧ嚎鐘舵€佸垽鏂?
+    ' created_at: 娉ㄥ唽鏃堕棿
+    ' 
+    ' 涓氬姟鍦烘櫙锛?    ' - 瀵嗙爜鐧诲綍銆侀獙璇佺爜鐧诲綍
+    ' - 蹇樿瀵嗙爜閲嶇疆娴佺▼
+    ' - 鐢ㄦ埛鐘舵€佺鐞嗗拰鏉冮檺鎺у埗
+    ' - 澶氱鐧诲綍璁惧绠＄悊
+}
+
+class UserProfile {
+    + user_id : Long
+    + nickname : String
+    + avatar : String
+    + gender : Integer
+    + birthday : Date
+    + location_province : String
+    + location_city : String
+    + bio : String
+    + metadata : JSON
+    + updated_at : DateTime
+    --
+    ' 鐢ㄦ埛璧勬枡鎵╁睍琛?    ' user_id: 鍏宠仈鐢ㄦ埛ID(FK)
+    ' nickname: 鐢ㄦ埛鏄电О(鏄剧ず鍚?2-20瀛楃)
+    ' avatar: 澶村儚URL(CDN鍦板潃)
+    ' gender: 鎬у埆(0=鏈煡,1=鐢?2=濂?
